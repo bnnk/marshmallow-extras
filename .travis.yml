@@ -3,6 +3,6 @@ python:
   - "3.8"
 cache: pip
 install:
-  - pip install numpy pandas furl marshmallow pyotp
+  - pip install numpy pandas furl marshmallow pyotp requests
 script:
   - python tests.py
