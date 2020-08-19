@@ -17,7 +17,7 @@ class FurlField(fields.Field):
         return furl(value)
 class NumPyArrayField(fields.Field):
     def _serialize(self, value, attr, obj, **kwargs):
-        return list(array)
+        return list(value)
 
     def _deserialize(self, value, attr, data, **kwargs):
         return array(value)
@@ -31,7 +31,7 @@ class PandasDataFrameField(fields.Field):
         return df
 class ElementTreeField(fields.Field):
     def _serialize(self, value, attr, obj, **kwargs):
-        return (ET.tostring(array.getroot()))
+        return (ET.tostring(value.getroot()))
 
     def _deserialize(self, value, attr, data, **kwargs):
         return ET.parse(value)
