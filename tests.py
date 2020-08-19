@@ -5,6 +5,7 @@ import numpy as np
 from requests import get
 from xml.etree import ElementTree as ET
 from furl import furl
+from marshmallow import Schema
 class TestingSchema(Schema):
     furl = FurlField()
     df = PandasDataFrameField()
