@@ -9,7 +9,7 @@ setup(
   author = 'BK Shrinandhan',                   # Type in your name
   author_email = 'python.access.server@gmail.ocm',      # Type in your E-Mail
   url = 'https://github.com/bnnk/marshmallow-extras',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/bnnk/marshmallow-extras/archive',    # I explain this later on
+  download_url = 'https://github.com/bnnk/marshmallow-extras/archive/master.zip',    # I explain this later on
   keywords = ['marshmallow', 'serialization', 'dumpng'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           'requests',
