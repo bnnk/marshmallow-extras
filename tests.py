@@ -5,7 +5,7 @@ import numpy as np
 from requests import get
 from xml.etree import ElementTree as ET
 from furl import furl
-class TestingSchema(Schema)
+class TestingSchema(Schema):
     furl = FurlField()
     df = PandasDataFrameField()
     arr = NumPyArrayField()
