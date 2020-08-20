@@ -15,10 +15,12 @@ cd marshmallow-extras
 pip install -e .
 ```
 
-or use the `install.sh` (on linux) or `install.bat` (on windows)
+or use the `install/linux.sh.sh` (on linux) or `install/windows.bat` (on windows)
 
 ### Using PyPI
 
 ```bash
 pip install marshmallow-extras
 ```
+## Testing the installation
+1. Copy the code from here.
