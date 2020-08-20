@@ -4,5 +4,8 @@ python:
 cache: pip
 install:
   - pip install numpy pandas furl marshmallow pyotp requests
+  - pip install coverage
 script:
-  - python tests.py
+  - coverage run -m tests
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
