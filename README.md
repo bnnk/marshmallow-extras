@@ -57,7 +57,7 @@ print(TestingSchema().load(TestingSchema().dump(ent)))
 
 ## Package Details
 This package has the following classes
-> FurlField - Field for Furl Objects [https://github.com/gruns/furl/blob/master/README.md]((read more about this package here))
+> FurlField - Field for Furl Objects [(read more about this package here)](https://github.com/gruns/furl/blob/master/README.md)
 
 > PandasDataFrameField - Field for pandas Dataframe
 
