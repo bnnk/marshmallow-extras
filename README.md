@@ -58,9 +58,15 @@ print(TestingSchema().load(TestingSchema().dump(ent)))
 ## Package Details
 This package has the following classes
 > FurlField - Field for Furl Objects ![https://github.com/gruns/furl/blob/master/README.md]((read more about this package here))
+
 > PandasDataFrameField - Field for pandas Dataframe
+
 > NumPyArrayField - Field for numpy arrays
+
 > HTTPRequestField - Field for Requests's get(),post(),put() or request() method's Response class
+
 > ElementTreeField - Field for xml.etree.ElementTree objects
+
 > HOTPField - Field for PyOTP's HOTP objects
+
 > TOTPField - Field for PyOTP's TOTP objects
