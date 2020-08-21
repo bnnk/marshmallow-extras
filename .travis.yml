@@ -10,7 +10,7 @@ python:
   - "nightly"
 cache: pip
 install:
-  - pip install numpy pandas furl marshmallow pyotp requests
+  - pip install numpy pandas furl marshmallow pyotp requests typing
   - pip install coverage
 script:
   - coverage run -m tests
