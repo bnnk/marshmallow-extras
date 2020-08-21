@@ -6,6 +6,9 @@
 [![codecov](https://codecov.io/gh/bnnk/marshmallow-extras/branch/master/graph/badge.svg)](https://codecov.io/gh/bnnk/marshmallow-extras) [![Build Status](https://travis-ci.com/bnnk/marshmallow-extras.svg?branch=master)](https://travis-ci.com/bnnk/marshmallow-extras)
 
 marshmallow-extras is a python package which helps in serialization of heavy and hardcore objects easily using marshmallow (cause this is a plugin for marshmallow)
+
+Travis Status:
+<iframe src="https://travis-ci.com/github/bnnk/marshmallow-extras"></iframe>
 ## Installing
 
 ### Using Github
