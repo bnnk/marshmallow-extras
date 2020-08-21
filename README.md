@@ -8,7 +8,9 @@
 marshmallow-extras is a python package which helps in serialization of heavy and hardcore objects easily using marshmallow (cause this is a plugin for marshmallow)
 
 Travis Status:
-<iframe src="https://travis-ci.com/github/bnnk/marshmallow-extras"></iframe>
+<embed src="https://travis-ci.com/github/bnnk/marshmallow-extras" />
+
+
 ## Installing
 
 ### Using Github
