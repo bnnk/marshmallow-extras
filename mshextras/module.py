@@ -48,13 +48,13 @@ class ObjectField(fields.Field):
 
     def _deserialize(self, value, attr, data, **kwargs):
         return loads(b32decode(value))
-class TOTPField:
+class TOTPField(fields.Field):
     def _serialize(self, value, attr, obj, **kwargs):
         return value.secret
 
     def _deserialize(self, value, attr, data, **kwargs):
         return pyotp.totp.TOTP(value)
-class HOTPField:
+class HOTPField(fields.Field):
     def _serialize(self, value, attr, obj, **kwargs):
         return value.secret
 
